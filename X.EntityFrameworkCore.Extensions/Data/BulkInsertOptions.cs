@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace X.EntityFrameworkCore.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions;
 
 public class BulkInsertOptions<T> : BulkOptions
 {

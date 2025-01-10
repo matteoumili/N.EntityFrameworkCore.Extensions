@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace X.EntityFrameworkCore.Extensions.Test.Common;
+namespace Shark.EntityFrameworkCore.Extensions.Test.Common;
 
 public class Config
 {

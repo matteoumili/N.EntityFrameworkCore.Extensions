@@ -2,9 +2,9 @@
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using X.EntityFrameworkCore.Extensions.Sql;
+using Shark.EntityFrameworkCore.Extensions.Sql;
 
-namespace X.EntityFrameworkCore.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions;
 
 public class SqlQuery
 {

@@ -1,4 +1,4 @@
-﻿namespace X.EntityFrameworkCore.Extensions.Sql;
+﻿namespace Shark.EntityFrameworkCore.Extensions.Sql;
 
 public enum SqlKeyword
 {

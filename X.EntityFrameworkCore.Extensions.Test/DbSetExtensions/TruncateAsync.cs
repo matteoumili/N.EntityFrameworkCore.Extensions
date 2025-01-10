@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using X.EntityFrameworkCore.Extensions.Test.DbContextExtensions;
+using Shark.EntityFrameworkCore.Extensions.Test.DbContextExtensions;
 
-namespace X.EntityFrameworkCore.Extensions.Test.DbSetExtensions;
+namespace Shark.EntityFrameworkCore.Extensions.Test.DbSetExtensions;
 
 [TestClass]
 public class TruncateAsync : DbContextExtensionsBase

@@ -4,9 +4,9 @@ using System.Data;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
 using Microsoft.EntityFrameworkCore.Metadata;
-using X.EntityFrameworkCore.Extensions.Common;
+using Shark.EntityFrameworkCore.Extensions.Common;
 
-namespace X.EntityFrameworkCore.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions;
 
 internal class EntityDataReader<T> : IDataReader
 {

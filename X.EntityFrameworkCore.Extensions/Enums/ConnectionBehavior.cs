@@ -1,4 +1,4 @@
-﻿namespace X.EntityFrameworkCore.Extensions.Enums;
+﻿namespace Shark.EntityFrameworkCore.Extensions.Enums;
 
 internal enum ConnectionBehavior
 {

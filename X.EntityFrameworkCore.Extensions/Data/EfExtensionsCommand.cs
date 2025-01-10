@@ -2,7 +2,7 @@
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
-namespace X.EntityFrameworkCore.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions;
 
 class EfExtensionsCommand
 {

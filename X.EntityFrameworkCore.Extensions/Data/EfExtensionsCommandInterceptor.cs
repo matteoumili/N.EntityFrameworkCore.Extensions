@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using System.Data.Common;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
-namespace X.EntityFrameworkCore.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions;
 
 public class EfExtensionsCommandInterceptor : DbCommandInterceptor
 {

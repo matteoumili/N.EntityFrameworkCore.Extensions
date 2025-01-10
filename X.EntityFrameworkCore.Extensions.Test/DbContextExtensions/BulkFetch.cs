@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace X.EntityFrameworkCore.Extensions.Test.DbContextExtensions;
+namespace Shark.EntityFrameworkCore.Extensions.Test.DbContextExtensions;
 
 [TestClass]
 public class BulkFetch : DbContextExtensionsBase

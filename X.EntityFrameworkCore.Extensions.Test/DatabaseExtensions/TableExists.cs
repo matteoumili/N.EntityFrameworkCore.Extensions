@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace X.EntityFrameworkCore.Extensions.Test.DatabaseExtensions;
+namespace Shark.EntityFrameworkCore.Extensions.Test.DatabaseExtensions;
 
 [TestClass]
 public class TableExists : DatabaseExtensionsBase

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using X.EntityFrameworkCore.Extensions.Test.Data;
+using Shark.EntityFrameworkCore.Extensions.Test.Data;
 
-namespace X.EntityFrameworkCore.Extensions.Test.DbContextExtensions;
+namespace Shark.EntityFrameworkCore.Extensions.Test.DbContextExtensions;
 
 [TestClass]
 public class BulkMergeAsync : DbContextExtensionsBase

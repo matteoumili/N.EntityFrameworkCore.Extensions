@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using X.EntityFrameworkCore.Extensions.Sql;
+using Shark.EntityFrameworkCore.Extensions.Sql;
 
-namespace X.EntityFrameworkCore.Extensions.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions.Extensions;
 
 internal static class SqlStatementExtensions
 {

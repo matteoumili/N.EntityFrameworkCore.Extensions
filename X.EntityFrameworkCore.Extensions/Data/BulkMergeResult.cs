@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace X.EntityFrameworkCore.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions;
 
 public class BulkMergeResult<T>
 {

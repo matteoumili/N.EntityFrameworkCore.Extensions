@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.Data.SqlClient;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace X.EntityFrameworkCore.Extensions.Test.DatabaseExtensions;
+namespace Shark.EntityFrameworkCore.Extensions.Test.DatabaseExtensions;
 
 [TestClass]
 public class SqlQueryToCsvFileAsync : DatabaseExtensionsBase

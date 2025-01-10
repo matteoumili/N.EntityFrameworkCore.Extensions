@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-using X.EntityFrameworkCore.Extensions.Sql;
-using X.EntityFrameworkCore.Extensions.Util;
+using Shark.EntityFrameworkCore.Extensions.Sql;
+using Shark.EntityFrameworkCore.Extensions.Util;
 
-namespace X.EntityFrameworkCore.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions;
 
 internal partial class BulkOperation<T>
 {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using Microsoft.Data.SqlClient;
 
-namespace X.EntityFrameworkCore.Extensions.Util;
+namespace Shark.EntityFrameworkCore.Extensions.Util;
 
 internal static class CommonUtil
 {

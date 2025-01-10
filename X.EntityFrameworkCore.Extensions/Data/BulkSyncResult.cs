@@ -1,5 +1,5 @@
 ﻿
-namespace X.EntityFrameworkCore.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions;
 
 public class BulkSyncResult<T> : BulkMergeResult<T>
 {

@@ -3,7 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace X.EntityFrameworkCore.Extensions.Test.DbContextExtensions;
+namespace Shark.EntityFrameworkCore.Extensions.Test.DbContextExtensions;
 
 [TestClass]
 public class QueryToCsvFileAsync : DbContextExtensionsBase

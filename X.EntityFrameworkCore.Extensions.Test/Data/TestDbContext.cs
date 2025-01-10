@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Drawing;
 using Microsoft.EntityFrameworkCore;
-using X.EntityFrameworkCore.Extensions.Test.Common;
+using Shark.EntityFrameworkCore.Extensions.Test.Common;
 
-namespace X.EntityFrameworkCore.Extensions.Test.Data;
+namespace Shark.EntityFrameworkCore.Extensions.Test.Data;
 
 public class TestDbContext : DbContext
 {

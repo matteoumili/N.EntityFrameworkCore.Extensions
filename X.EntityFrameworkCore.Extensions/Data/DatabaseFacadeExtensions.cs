@@ -7,10 +7,10 @@ using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage;
-using X.EntityFrameworkCore.Extensions.Enums;
-using X.EntityFrameworkCore.Extensions.Util;
+using Shark.EntityFrameworkCore.Extensions.Enums;
+using Shark.EntityFrameworkCore.Extensions.Util;
 
-namespace X.EntityFrameworkCore.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions;
 
 public static class DabaseFacadeExtensions
 {

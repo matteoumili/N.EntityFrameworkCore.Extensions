@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace X.EntityFrameworkCore.Extensions.Test.LinqExtensions;
+namespace Shark.EntityFrameworkCore.Extensions.Test.LinqExtensions;
 
 [TestClass]
 public class ToSqlPredicateTests

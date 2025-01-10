@@ -1,4 +1,4 @@
-name: .NET
+name: Build + Test EF9
 
 on:
   push:

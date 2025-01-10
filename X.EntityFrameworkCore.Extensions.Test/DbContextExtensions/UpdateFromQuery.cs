@@ -4,10 +4,10 @@ using System.Globalization;
 using System.Linq;
 using System.Threading;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using X.EntityFrameworkCore.Extensions.Test.Data;
-using X.EntityFrameworkCore.Extensions.Test.Data.Enums;
+using Shark.EntityFrameworkCore.Extensions.Test.Data;
+using Shark.EntityFrameworkCore.Extensions.Test.Data.Enums;
 
-namespace X.EntityFrameworkCore.Extensions.Test.DbContextExtensions;
+namespace Shark.EntityFrameworkCore.Extensions.Test.DbContextExtensions;
 
 [TestClass]
 public class UpdateFromQuery : DbContextExtensionsBase

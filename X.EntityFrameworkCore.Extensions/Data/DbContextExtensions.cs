@@ -13,13 +13,13 @@ using Microsoft.EntityFrameworkCore.Internal;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Query;
 using Microsoft.EntityFrameworkCore.Query.Internal;
-using X.EntityFrameworkCore.Extensions.Common;
-using X.EntityFrameworkCore.Extensions.Enums;
-using X.EntityFrameworkCore.Extensions.Extensions;
-using X.EntityFrameworkCore.Extensions.Sql;
-using X.EntityFrameworkCore.Extensions.Util;
+using Shark.EntityFrameworkCore.Extensions.Common;
+using Shark.EntityFrameworkCore.Extensions.Enums;
+using Shark.EntityFrameworkCore.Extensions.Extensions;
+using Shark.EntityFrameworkCore.Extensions.Sql;
+using Shark.EntityFrameworkCore.Extensions.Util;
 
-namespace X.EntityFrameworkCore.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions;
 
 public static class DbContextExtensions
 {

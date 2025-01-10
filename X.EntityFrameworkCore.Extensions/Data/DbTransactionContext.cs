@@ -2,10 +2,10 @@
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
-using X.EntityFrameworkCore.Extensions.Enums;
+using Shark.EntityFrameworkCore.Extensions.Enums;
 
 
-namespace X.EntityFrameworkCore.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions;
 
 internal class DbTransactionContext : IDisposable
 {

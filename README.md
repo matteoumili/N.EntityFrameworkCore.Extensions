@@ -1,11 +1,11 @@
-## X.EntityFrameworkCore.Extensions
+## Shark.EntityFrameworkCore.Extensions
 
-[![latest version](https://img.shields.io/nuget/v/X.EntityFrameworkCore.Extensions)](https://www.nuget.org/packages/X.EntityFrameworkCore.Extensions) [![downloads](https://img.shields.io/nuget/dt/X.EntityFrameworkCore.Extensions)](https://www.nuget.org/packages/X.EntityFrameworkCore.Extensions)
+[![latest version](https://img.shields.io/nuget/v/Shark.EntityFrameworkCore.Extensions)](https://www.nuget.org/packages/Shark.EntityFrameworkCore.Extensions) [![downloads](https://img.shields.io/nuget/dt/Shark.EntityFrameworkCore.Extensions)](https://www.nuget.org/packages/Shark.EntityFrameworkCore.Extensions)
 
 
 ## Bulk data support  data support for EntityFrameworkCore v8.0.0+
 
-X.EntityFrameworkCore.Extensions extends your DbContext with high-performance bulk operations: BulkDelete, BulkFetch, BulkInsert, BulkMerge, BulkSaveChanges, BulkSync, BulkUpdate, Fetch, FromSqlQuery, DeleteFromQuery, InsertFromQuery, UpdateFromQuery, QueryToCsvFile, SqlQueryToCsvFile
+Shark.EntityFrameworkCore.Extensions extends your DbContext with high-performance bulk operations: BulkDelete, BulkFetch, BulkInsert, BulkMerge, BulkSaveChanges, BulkSync, BulkUpdate, Fetch, FromSqlQuery, DeleteFromQuery, InsertFromQuery, UpdateFromQuery, QueryToCsvFile, SqlQueryToCsvFile
 
 Supports: Multiple Schemas, Complex Properties, Value Converters, Transactions, Synchronous & Asynchronous Execution
 
@@ -15,10 +15,10 @@ Supports Databases: SQL Server
 
   ### Installation
 
-  The latest stable version is available on [NuGet](https://www.nuget.org/packages/X.EntityFrameworkCore.Extensions).
+  The latest stable version is available on [NuGet](https://www.nuget.org/packages/Shark.EntityFrameworkCore.Extensions).
 
   ```sh
-  dotnet add package X.EntityFrameworkCore.Extensions
+  dotnet add package Shark.EntityFrameworkCore.Extensions
   ```
   
  ## Usage

@@ -1,4 +1,4 @@
-﻿namespace X.EntityFrameworkCore.Extensions.Test.Data.Enums;
+﻿namespace Shark.EntityFrameworkCore.Extensions.Test.Data.Enums;
 
 public enum ProductStatus
 {

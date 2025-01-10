@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace X.EntityFrameworkCore.Extensions.Test.Data;
+namespace Shark.EntityFrameworkCore.Extensions.Test.Data;
 
 public class Order
 {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore.Metadata;
-using X.EntityFrameworkCore.Extensions.Enums;
+using Shark.EntityFrameworkCore.Extensions.Enums;
 
-namespace X.EntityFrameworkCore.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions;
 
 public class BulkOptions
 {

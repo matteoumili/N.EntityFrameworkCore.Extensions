@@ -4,9 +4,9 @@
         <TargetFramework>net8.0</TargetFramework>
         <EFCORE_VERSION Condition="'$(EFCORE_VERSION)' == ''">9</EFCORE_VERSION>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageProjectUrl>https://github.com/matteoumili/X.EntityFrameworkCore.Extensions/</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/matteoumili/Shark.EntityFrameworkCore.Extensions/</PackageProjectUrl>
         <Description>
-            X.EntityFrameworkCore.Extensions extends your DbContext in EF Core with high-performance bulk operations: BulkDelete, BulkInsert, BulkMerge, BulkSync, BulkUpdate, Fetch, DeleteFromQuery, InsertFromQuery, UpdateFromQuery.
+            Shark.EntityFrameworkCore.Extensions extends your DbContext in EF Core with high-performance bulk operations: BulkDelete, BulkInsert, BulkMerge, BulkSync, BulkUpdate, Fetch, DeleteFromQuery, InsertFromQuery, UpdateFromQuery.
 
             Inheritance models supported: Table-Per-Concrete, Table-Per-Hierarchy, Table-Per-Type
         </Description>
@@ -58,7 +58,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <InternalsVisibleTo Include="X.EntityFrameworkCore.Extensions.Test" />
+        <InternalsVisibleTo Include="Shark.EntityFrameworkCore.Extensions.Test" />
     </ItemGroup>
 
 </Project>

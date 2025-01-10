@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using X.EntityFrameworkCore.Extensions.Test.Data;
+using Shark.EntityFrameworkCore.Extensions.Test.Data;
 
-namespace X.EntityFrameworkCore.Extensions.Test.DbContextExtensions;
+namespace Shark.EntityFrameworkCore.Extensions.Test.DbContextExtensions;
 
 [TestClass]
 public class BulkSaveChanges : DbContextExtensionsBase

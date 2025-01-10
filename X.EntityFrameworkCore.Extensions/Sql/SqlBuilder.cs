@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using Microsoft.Data.SqlClient;
 
-namespace X.EntityFrameworkCore.Extensions.Sql;
+namespace Shark.EntityFrameworkCore.Extensions.Sql;
 
 class SqlBuilder
 {

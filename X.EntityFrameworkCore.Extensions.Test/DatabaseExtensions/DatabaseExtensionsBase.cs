@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using X.EntityFrameworkCore.Extensions.Test.Data;
+using Shark.EntityFrameworkCore.Extensions.Test.Data;
 
-namespace X.EntityFrameworkCore.Extensions.Test.DatabaseExtensions;
+namespace Shark.EntityFrameworkCore.Extensions.Test.DatabaseExtensions;
 
 public class DatabaseExtensionsBase
 {

@@ -10,13 +10,13 @@ using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Internal;
-using X.EntityFrameworkCore.Extensions.Common;
-using X.EntityFrameworkCore.Extensions.Enums;
-using X.EntityFrameworkCore.Extensions.Extensions;
-using X.EntityFrameworkCore.Extensions.Sql;
-using X.EntityFrameworkCore.Extensions.Util;
+using Shark.EntityFrameworkCore.Extensions.Common;
+using Shark.EntityFrameworkCore.Extensions.Enums;
+using Shark.EntityFrameworkCore.Extensions.Extensions;
+using Shark.EntityFrameworkCore.Extensions.Sql;
+using Shark.EntityFrameworkCore.Extensions.Util;
 
-namespace X.EntityFrameworkCore.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions;
 
 public static class DbContextExtensionsAsync
 {

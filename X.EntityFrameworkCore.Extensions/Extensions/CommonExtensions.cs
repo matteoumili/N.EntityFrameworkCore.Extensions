@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace X.EntityFrameworkCore.Extensions.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions.Extensions;
 
 internal static class CommonExtensions
 {

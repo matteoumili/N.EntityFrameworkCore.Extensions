@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using X.EntityFrameworkCore.Extensions.Util;
+using Shark.EntityFrameworkCore.Extensions.Util;
 
-namespace X.EntityFrameworkCore.Extensions.Sql;
+namespace Shark.EntityFrameworkCore.Extensions.Sql;
 
 internal class SqlExpression
 {

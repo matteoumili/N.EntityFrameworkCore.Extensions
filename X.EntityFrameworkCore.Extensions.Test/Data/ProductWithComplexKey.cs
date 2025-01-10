@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace X.EntityFrameworkCore.Extensions.Test.Data;
+namespace Shark.EntityFrameworkCore.Extensions.Test.Data;
 
 public class ProductWithComplexKey
 {

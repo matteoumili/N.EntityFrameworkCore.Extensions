@@ -1,4 +1,4 @@
-﻿namespace X.EntityFrameworkCore.Extensions;
+﻿namespace Shark.EntityFrameworkCore.Extensions;
 
 enum EfExtensionsCommandType
 {

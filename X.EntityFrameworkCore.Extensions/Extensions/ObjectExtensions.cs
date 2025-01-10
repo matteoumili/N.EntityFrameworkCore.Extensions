@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace X.EntityFrameworkCore.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions;
 
 internal static class ObjectExtensions
 {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using X.EntityFrameworkCore.Extensions.Test.Data.Enums;
+using Shark.EntityFrameworkCore.Extensions.Test.Data.Enums;
 
-namespace X.EntityFrameworkCore.Extensions.Test.Data;
+namespace Shark.EntityFrameworkCore.Extensions.Test.Data;
 
 public class Product
 {

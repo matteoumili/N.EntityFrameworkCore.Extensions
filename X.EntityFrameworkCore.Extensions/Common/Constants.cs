@@ -1,4 +1,4 @@
-﻿namespace X.EntityFrameworkCore.Extensions.Common;
+﻿namespace Shark.EntityFrameworkCore.Extensions.Common;
 
 public static class Constants
 {

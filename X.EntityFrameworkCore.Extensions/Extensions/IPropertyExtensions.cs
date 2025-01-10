@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace X.EntityFrameworkCore.Extensions.Extensions;
+namespace Shark.EntityFrameworkCore.Extensions.Extensions;
 
 public static class IPropertyExtensions
 {
