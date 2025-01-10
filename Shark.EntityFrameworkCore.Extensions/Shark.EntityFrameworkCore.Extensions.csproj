@@ -15,12 +15,12 @@
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(EFCORE_VERSION)' == '8'">
-        <Version>8.0.0</Version>
+        <Version>8.0.1</Version>
         <PackageReleaseNotes>Support for EF Core 8</PackageReleaseNotes>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(EFCORE_VERSION)' == '9'">
-        <Version>9.0.0</Version>
+        <Version>9.0.1</Version>
         <PackageReleaseNotes>Support for EF Core 9</PackageReleaseNotes>
     </PropertyGroup>
 
