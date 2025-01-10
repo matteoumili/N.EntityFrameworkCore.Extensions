@@ -1,0 +1,29 @@
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore.Metadata;
+using X.EntityFrameworkCore.Extensions.Enums;
+
+namespace X.EntityFrameworkCore.Extensions;
+
+public class BulkOptions
+{
+    public int BatchSize { get; set; }
+    public SqlBulkCopyOptions BulkCopyOptions { get; internal set; }
+    public SqlBulkCopyColumnOrderHintCollection ColumnOrderHints { get; internal set; }
+    public bool EnableStreaming { get; internal set; }
+    public int NotifyAfter { get; internal set; }
+    public bool UsePermanentTable { get; set; }
+    public int? CommandTimeout { get; set; }
+    internal ConnectionBehavior ConnectionBehavior { get; set; }
+    internal IEntityType EntityType { get; set; }
+
+    public SqlRowsCopiedEventHandler SqlRowsCopied { get; internal set; }
+
+    public BulkOptions()
+    {
+            this.BulkCopyOptions = SqlBulkCopyOptions.Default;
+            this.ColumnOrderHints = new SqlBulkCopyColumnOrderHintCollection();
+            this.EnableStreaming = false;
+            this.NotifyAfter = 0;
+            this.ConnectionBehavior = ConnectionBehavior.Default;
+        }
+}
