@@ -2,6 +2,7 @@
 
 [![latest version](https://img.shields.io/nuget/v/Shark.EntityFrameworkCore.Extensions)](https://www.nuget.org/packages/Shark.EntityFrameworkCore.Extensions) [![downloads](https://img.shields.io/nuget/dt/Shark.EntityFrameworkCore.Extensions)](https://www.nuget.org/packages/Shark.EntityFrameworkCore.Extensions)
 
+This library is a fork of NorthernLight1/N.EntityFrameworkCore.Extensions that adds support for EFCore 9 and upgrade references of vulnerable libraries.
 
 ## Bulk data support  data support for EntityFrameworkCore v8.0.0+
 
