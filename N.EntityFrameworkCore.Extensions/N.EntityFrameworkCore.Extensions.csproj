@@ -1,39 +1,64 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <Version>8.0.0.12</Version>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageProjectUrl>https://github.com/NorthernLight1/N.EntityFrameworkCore.Extensions/</PackageProjectUrl>
-    <Authors>Northern25</Authors>
-    <Copyright>Copyright © 2024</Copyright>
-    <Company />
-    <Description>N.EntityFrameworkCore.Extensions extends your DbContext in EF Core with high-performance bulk operations: BulkDelete, BulkInsert, BulkMerge, BulkSync, BulkUpdate, Fetch, DeleteFromQuery, InsertFromQuery, UpdateFromQuery.
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <EFCORE_VERSION Condition="'$(EFCORE_VERSION)' == ''">9</EFCORE_VERSION>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageProjectUrl>https://github.com/matteoumili/N.EntityFrameworkCore.Extensions/</PackageProjectUrl>
+        <Description>
+            N.EntityFrameworkCore.Extensions extends your DbContext in EF Core with high-performance bulk operations: BulkDelete, BulkInsert, BulkMerge, BulkSync, BulkUpdate, Fetch, DeleteFromQuery, InsertFromQuery, UpdateFromQuery.
 
-Inheritance models supported: Table-Per-Concrete, Table-Per-Hierarchy, Table-Per-Type</Description>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-  </PropertyGroup>
+            Inheritance models supported: Table-Per-Concrete, Table-Per-Hierarchy, Table-Per-Type
+        </Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <WarningLevel>5</WarningLevel>
-  </PropertyGroup>
+    <PropertyGroup Condition="'$(EFCORE_VERSION)' == '8'">
+        <Version>8.0.0.13</Version>
+        <PackageReleaseNotes>Support for EF Core 8</PackageReleaseNotes>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="..\README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
+    <PropertyGroup Condition="'$(EFCORE_VERSION)' == '9'">
+        <Version>9.0.0.0</Version>
+        <PackageReleaseNotes>Support for EF Core 9</PackageReleaseNotes>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.4" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.0" />
-  </ItemGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <WarningLevel>5</WarningLevel>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <InternalsVisibleTo Include="N.EntityFrameworkCore.Extensions.Test" />
-  </ItemGroup>
-  
+    <ItemGroup>
+        <None Include="..\README.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    </ItemGroup>
+
+    <ItemGroup Condition="'$(EFCORE_VERSION)' == '8'">
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.*" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.*" />
+    </ItemGroup>
+
+    <ItemGroup Condition="'$(EFCORE_VERSION)' == '9'">
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.*" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.*" />
+    </ItemGroup>
+
+    <PropertyGroup Condition="'$(EFCORE_VERSION)' == '8'">
+        <DefineConstants>EFCORE_8</DefineConstants>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(EFCORE_VERSION)' == '9'">
+        <DefineConstants>EFCORE_9</DefineConstants>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="N.EntityFrameworkCore.Extensions.Test" />
+    </ItemGroup>
+
 </Project>
